@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+* p {
+  color: #6E6F6F;
+  font-size: 17px;
+}
+
+.elementor {
+  background-image: url(https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2022/01/TOIP036.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-height: 900px;
+  padding: 40px;
+}
+
+.elementor h2 {
+  color: #141948;
+  font-size: 30px;
+}
+
+.elementor .textelement {
+  width: 70%;
+  padding: 40px;
+  margin-left: 40px;
+}
+
+.elementor .textelement .staricon {
+  padding: 40px 0;
+}
+
+.elementor .textelement .staricon i {
+  color: #FFD24D;
+}
+
+.elementor .textelement h2 {
+  font-weight: bold;
+  color: #141948;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.elementor img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.elementor .devkoss {
+  padding-top: 40px;
+}
+
+.elementor span {
+  font-size: 17px;
+  padding: 0 10px;
+}
+
+.elementor span.devon {
+  border-right: 1px solid #aeaeae;
+}
+
+.elementor span.greenUp {
+  color: #3BBCA7;
+}
+
+.overView {
+  background-color: transparent;
+  padding-top: 40px;
+}
+
+.overView .leftOver ul {
+  padding: 20px 0;
+}
+
+.overView .leftOver ul li {
+  margin-left: 40px;
+}
+
+.overView .leftOver ul li a {
+  text-decoration: none;
+  color: #ababab;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.overView .whatWill {
+  margin-top: 40px;
+  background-color: #f6f7f9;
+  padding: 40px;
+}
+
+.overView .whatWill h3 {
+  font-weight: bold;
+  color: #141948;
+  font-size: 24px;
+}
+
+.overView .whatWill i {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.overView .whatWill span.checkText {
+  padding-left: 30px;
+}
+
+.rightOver {
+  margin-left: 40px;
+  width: 85%;
+  -webkit-box-shadow: 5px 0px 15px 0px #aeaeae;
+          box-shadow: 5px 0px 15px 0px #aeaeae;
+  -webkit-transform: translateY(-30%);
+          transform: translateY(-30%);
+  padding-bottom: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: -30%;
+}
+
+.rightOver .clientSay img {
+  position: relative;
+}
+
+.rightOver .clientSay i {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px 22px;
+  font-size: 20px;
+  z-index: 1;
+  color: #072F60;
+}
+
+.rightOver .clientSay i:hover {
+  color: #3BBCA7;
+}
+
+.rightOver p {
+  display: inline-block;
+  color: #072F60;
+  font-size: 30px;
+  font-weight: 650;
+  margin: 10px 30px;
+}
+
+.rightOver span {
+  display: block;
+}
+
+.rightOver .vieWcart {
+  background-color: #3BBCA7;
+  color: white;
+  width: 80%;
+  padding: 10px;
+  margin: 20px auto;
+  font-weight: 600;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.rightOver .duration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 20px 0;
+}
+
+.rightOver .duration i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.rightOver hr {
+  margin: auto;
+  height: 2px;
+  width: 65%;
+  color: #ebebeb;
+}
+
+.rightOver .shareThis {
+  margin: 15px 40px;
+  color: #3BBCA7;
+  border: 2px solid #3BBCA7;
+  padding: 10px;
+  border-radius: 5px;
+  width: 75%;
+  background-color: white;
+}
+
+* a {
+  text-decoration: none;
+}
+
+.columnsec {
+  width: 100%;
+  background-image: url(https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/REJ93.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  text-align: center;
+  padding: 45px 0;
+}
+
+.columnsec .textcolumn {
+  padding: 40px 0;
+}
+
+.columnsec .textcolumn h2 {
+  padding: 20px 0;
+  color: #141948;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.columnsec .textcolumn h2:hover {
+  color: #3BBCA7;
+}
+
+.columnsec .textcolumn span {
+  color: #6E6F6F;
+}
+
+.columnsec .textcolumn span i {
+  font-size: 13px;
+}
+
+.columnsec .textcolumn span.greenspan {
+  color: #3BBCA7;
+}
+
+.stylecol {
+  margin-top: 40px;
+}
+
+.stylecol .fredHyman {
+  -webkit-box-shadow: 5px 0px 10px 0px #aeaeae;
+          box-shadow: 5px 0px 10px 0px #aeaeae;
+  margin: 40px 0;
+  padding-bottom: 20px;
+}
+
+.stylecol .fredHyman img {
+  border-radius: 5px;
+}
+
+.stylecol .fredHyman img.faPlay {
+  position: relative;
+}
+
+.stylecol .fredHyman .fapIcon {
+  position: absolute;
+  bottom: 20%;
+  left: 70%;
+  color: #072F60;
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px 22px;
+  font-size: 20px;
+}
+
+.stylecol .fredHyman .textHyman {
+  padding: 30px;
+}
+
+.stylecol .fredHyman .textHyman h3 {
+  color: #072F60;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.stylecol .fredHyman .textHyman span {
+  color: #ababab;
+  margin-left: 10px;
+}
+
+.stylecol .fredHyman .textHyman span:hover {
+  color: #3BBCA7;
+}
+
+.stylecol .fredHyman .textHyman span.readmore {
+  color: #3BBCA7;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.atUniver {
+  background-image: url("https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2020/09/BT992-1170x725.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-height: 900px;
+  padding: 40px;
+}
+
+.atUniver .textUniver {
+  text-align: center;
+  padding: 40px;
+}
+
+.atUniver .textUniver h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
