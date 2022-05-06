@@ -1,3 +1,4 @@
+@import 'variable';
 *{
     a{
         text-decoration: none;
@@ -88,5 +89,30 @@ margin-left: 10px;
         }
       
     
+}
+.botstyle{
+    margin: 40px 0;
+    text-align: center;
+    i{
+        margin-left: 10px;
+        color:$gray;
+        font-size: 15px;
+    }
+    span{
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 16px;
+        color:$gray;
+        cursor: pointer;
+        &:hover{
+            color:$aqua;
+        }
+        &.greencircle{
+            background-color: $aqua;
+            color:white;
+            border-radius: 100%;
+            padding:8px 15px;
+        }
+    }
 }
 }

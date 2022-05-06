@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 * p {
   color: #6E6F6F;
   font-size: 17px;
@@ -68,39 +70,43 @@
   padding-top: 40px;
 }
 
-.overView .leftOver ul {
+.overView .leftOver ul.reviOv {
   padding: 20px 0;
 }
 
-.overView .leftOver ul li {
+.overView .leftOver ul.reviOv li {
   margin-left: 40px;
-}
-
-.overView .leftOver ul li a {
   text-decoration: none;
   color: #ababab;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 
-.overView .whatWill {
+.overView .firstov .whatWill {
   margin-top: 40px;
   background-color: #f6f7f9;
   padding: 40px;
 }
 
-.overView .whatWill h3 {
+.overView .firstov .whatWill h3 {
   font-weight: bold;
   color: #141948;
   font-size: 24px;
+  padding: 20px 0;
 }
 
-.overView .whatWill i {
+.overView .firstov .whatWill ul li {
+  line-height: 30px;
+  color: #6E6F6F;
+}
+
+.overView .firstov .whatWill i {
   font-weight: 700;
   font-size: 13px;
 }
 
-.overView .whatWill span.checkText {
+.overView .firstov .whatWill span.checkText {
   padding-left: 30px;
 }
 
@@ -294,24 +300,302 @@
   font-size: 12px;
 }
 
+.stylecol .botstyle {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.stylecol .botstyle i {
+  margin-left: 10px;
+  color: #6E6F6F;
+  font-size: 15px;
+}
+
+.stylecol .botstyle span {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #6E6F6F;
+  cursor: pointer;
+}
+
+.stylecol .botstyle span:hover {
+  color: #3BBCA7;
+}
+
+.stylecol .botstyle span.greencircle {
+  background-color: #3BBCA7;
+  color: white;
+  border-radius: 100%;
+  padding: 8px 15px;
+}
+
 .atUniver {
   background-image: url("https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2020/09/BT992-1170x725.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  max-height: 900px;
+  height: 400px;
   padding: 40px;
+  position: relative;
 }
 
-.atUniver .textUniver {
+.atUniver .overlay {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.atUniver .overlay .textUniver {
   text-align: center;
   padding: 40px;
+  color: white;
+  margin-top: 40px;
 }
 
-.atUniver .textUniver h1 {
-  color: white;
-  font-size: 30px;
+.atUniver .overlay .textUniver h1 {
+  padding-top: 30px;
+  font-size: 40px;
   font-weight: 700;
+}
+
+.atUniver .overlay .textUniver span.canada {
+  color: #3BBCA7;
+}
+
+.worldClass {
+  margin-top: 40px;
+}
+
+.worldClass .nationAl p {
+  color: #666666;
+  font-size: 17px;
+  padding: 20px 0;
+}
+
+.worldClass .nationAl blockquote p {
+  color: #072F60;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.worldClass .nationAl blockquote i {
+  color: #3BBCA7;
+  font-size: 38px;
+}
+
+.worldClass .nationAl img {
+  border-radius: 5%;
+}
+
+.worldClass .nationAl h5 {
+  margin-top: 20px;
+  color: #072F60;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.worldClass .natright {
+  margin-left: 30px;
+}
+
+.worldClass .natright .writeKey {
+  background-color: #f6f7f9;
+  padding: 20px 10px;
+}
+
+.worldClass .natright .writeKey i {
+  color: #3BBCA7;
+}
+
+.worldClass .natright .writeKey input {
+  border: none;
+  background-color: #f6f7f9;
+}
+
+.worldClass .natright .writeKey input.placeholder {
+  color: #f6f7f9;
+}
+
+.worldClass .natright .recent {
+  padding-top: 20px;
+}
+
+.worldClass .natright .recent .timejuly {
+  padding: 30px 0;
+  border-bottom: 2px solid #f6f7f9;
+}
+
+.worldClass .natright .recent .timejuly span {
+  color: #666666 #6E6F6F;
+}
+
+.worldClass .natright .recent .timejuly img {
+  border-radius: 10%;
+  width: 25%;
+  margin: 10px;
+}
+
+.worldClass .natright .catagories {
+  padding-top: 30px;
+}
+
+.worldClass .natright .catagories li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 0;
+}
+
+.worldClass .natright .catagories li a {
+  color: #666666;
+}
+
+.worldClass .natright .catagories li a:hover {
+  color: #3BBCA7;
+}
+
+.worldClass .natright .catagories li span {
+  color: black;
+  background-color: #e4f2f8;
+  border-radius: 50%;
+  font-size: 13px;
+  padding: 0 8px;
+  font-weight: 500;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.worldClass .natright .catagories li span:hover {
+  color: white;
+  background-color: #3BBCA7;
+}
+
+.tagsBalance .relatedposts {
+  margin-top: 40px;
+}
+
+.tagsBalance .relatedposts h2 {
+  font-weight: 6o0;
+  color: #072F60;
+}
+
+.tagsBalance .relatedposts .relpost {
+  -webkit-box-shadow: 5px 0px 10px 0px #aeaeae;
+          box-shadow: 5px 0px 10px 0px #aeaeae;
+  margin: 40px 0;
+  padding-bottom: 20px;
+}
+
+.tagsBalance .relatedposts .relpost img {
+  border-radius: 5px;
+}
+
+.tagsBalance .buildCar {
+  margin-top: 40px;
+  background-color: #F6F7F9;
+  padding: 20px 10px;
+}
+
+.tagsBalance .buildCar .textscinec {
+  margin-right: 20px;
+}
+
+.tagsBalance .buildCar .textscinec h6 {
+  color: #072F60;
+  font-weight: 600;
+}
+
+.tagsBalance .buildCar img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+.tagsBalance span {
+  display: inline-block;
+  color: #666666;
+  background-color: #f6f7f9;
+  padding: 6px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.tagsBalance span:hover {
+  color: white;
+  background-color: #3BBCA7;
+}
+
+.tagsBalance span.ttags {
+  color: #072F60;
+  font-weight: 700;
+  font-size: 15px;
+  background: none;
+}
+
+.tagsBalance .leftTags {
+  padding-top: 40px;
+  margin-top: 40px;
+}
+
+.tagsBalance .leftTags .soctag span {
+  margin-right: 10px;
+  border-radius: 50%;
+  color: white;
+  padding: 6px 10px;
+  font-weight: 600;
+}
+
+.tagsBalance .leftTags .soctag span.twit {
+  background-color: #1DA1F2;
+}
+
+.tagsBalance .leftTags .soctag span.fbook {
+  background-color: #4E69A2;
+}
+
+.tagsBalance .leftTags .soctag span.pints {
+  background-color: #C32032;
+}
+
+.tagsBalance .leftTags .soctag span.linked {
+  background-color: #1988BC;
+}
+
+.tagsBalance .rightAlltags {
+  margin-right: 30px;
+}
+
+.tagsBalance .rightAlltags .rightTags {
+  margin-left: 22px;
+}
+
+.tagsBalance .rightAlltags .whStay {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #EAF3F8;
+}
+
+.tagsBalance .rightAlltags .whStay .textWh {
+  padding: 40px 10px;
+}
+
+.tagsBalance .rightAlltags .whStay span {
+  color: white;
+  background-color: #3BBCA7;
+  padding: 15px 25px;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
