@@ -1,30 +1,23 @@
 'use strict'
+var men = document.querySelectorAll(".curbox .accmenu h5");
+var i;
 
-// for (i = 0; i < side.length; i++) {
-//   side[i].addEventListener("click", function() {
-  
-//     this.classList.toggle("active");
+for (i = 0; i < men.length; i++) {
+  men[i].addEventListener("click", function () {
+    this.classList.toggle("active");
 
-//     var panel = this.nextElementSibling;
-//     if (menu.style.display === "block") {
-//       menu.style.display = "none";
-//     } else {
-//       menu.style.display = "block";
-//     }
-//   });
-// }
+    var menuInt = this.nextElementSibling;
+    if (menuInt.style.display === "block") {
+      menuInt.style.display = "none";
+    } else {
+      menuInt.style.display = "block";
+    }
+  });
+}
 
-
-
-
-
-
-
-
-
-
-
-
+function myFunction(x) {
+  x.classList.toggle("fa-angle-up");
+}
 
 
 let btnc =document.querySelectorAll(".thtorial  .leftorial ul li");

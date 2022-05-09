@@ -105,7 +105,7 @@
 .thtorial .alltutorial .leftorial .overbox .overbottomm {
   margin-top: 30px;
   background-color: #f6f7f9;
-  padding: 20px 10px;
+  padding: 20px;
 }
 
 .thtorial .alltutorial .leftorial .overbox .overbottomm h3 {
@@ -129,8 +129,16 @@
   padding-left: 30px;
 }
 
-.thtorial .alltutorial .leftorial .curbox {
-  background-color: red;
+.thtorial .alltutorial .leftorial .curbox .accmenu {
+  margin: 40px 0;
+  border: 1px solid rgba(144, 142, 142, 0.184);
+}
+
+.thtorial .alltutorial .leftorial .curbox .accmenu h5 {
+  padding: 20px;
+  font-size: 17px;
+  color: #141948;
+  font-weight: bold;
 }
 
 .thtorial .alltutorial .leftorial .insbox {
@@ -148,7 +156,7 @@
 
 .thtorial .alltutorial .leftorial .insbox p {
   color: #666666;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .thtorial .alltutorial .leftorial .insbox i {
@@ -259,7 +267,6 @@
 }
 
 .thtorial .alltutorial .rightorial {
-  width: 85%;
   -webkit-transform: translateY(-90px);
           transform: translateY(-90px);
   position: -webkit-sticky;
@@ -296,7 +303,6 @@
 }
 
 .thtorial .alltutorial .rightorial p {
-  display: inline-block;
   color: #072F60;
   font-size: 30px;
   font-weight: 650;
@@ -362,6 +368,10 @@
   }
   .elementor p {
     font-size: 12px;
+  }
+  .rightorial {
+    margin-top: 70px;
+    margin-left: 18px;
   }
 }
 
@@ -910,11 +920,16 @@
 .tagsBalance .leavrep {
   background-color: #f6f7f9;
   padding: 20px;
-  margin-top: 10px;
+  margin: 20px 0 p;
+  margin-color: #666666;
+  margin-font-size: 15px;
+  margin-padding-top: 10px;
 }
 
-.tagsBalance .leavrep p {
+.tagsBalance .leavrep span {
   color: #666666;
+  font-size: 15px;
+  padding-top: 10px;
 }
 
 .tagsBalance .leavrep h3 {
@@ -928,6 +943,16 @@
   padding: 10px 30px;
   border: none;
   border-radius: 3px;
+}
+
+.tagsBalance .leavrep input.past {
+  color: white;
+  background-color: #3BBCA7;
+  font-weight: 600;
+}
+
+.tagsBalance .leavrep input.past:hover {
+  background-color: #072F60;
 }
 
 .tagsBalance .leavrep input::-webkit-input-placeholder {

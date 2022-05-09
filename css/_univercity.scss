@@ -94,6 +94,7 @@ border-radius: 3px;
    font-size: 15px;
       color: #f6f7f9;
     padding: 10px;
+   
         }
   }
   
@@ -372,10 +373,17 @@ margin-top:20px;
 }
 .leavrep{
   background-color: $lightgray;
-padding: 20px;
-margin-top: 10px;
+padding:20px;
+margin: 20px 0
 p{
   color: $pgray;
+  font-size: 15px;
+ padding-top: 10px;
+}
+span{
+  color: $pgray;
+  font-size: 15px;
+ padding-top: 10px;
 }
   h3{
     color:#072F60;
@@ -387,6 +395,17 @@ margin: 15px 0;
 padding: 10px 30px;
 border: none;
 border-radius: 3px;
+
+&.past{
+
+  color:white;
+  background-color: $aqua;
+  font-weight: 600;
+  &:hover{
+    background-color: #072F60;
+  }
+}
+
 &::placeholder{
   font-size: 15px;
 }
@@ -412,6 +431,7 @@ border-radius: 3px;
   .rightAlltags{
     position: sticky;
     top:0;
+  
     span{
       display: inline-block;
       color: #666666;

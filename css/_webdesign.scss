@@ -100,7 +100,7 @@ span{
      .overbottomm{
   margin-top: 30px;
          background-color: $lightgray;
-         padding:20px 10px;
+         padding: 20px;
       h3{
           font-weight: bold;
           color:$darkblue;
@@ -127,77 +127,70 @@ span{
           
           }
       }
-  .curbox{
+   .curbox{
   
-      .accmenu {
-        margin: 40px 0;
-        border: 1px solid rgba(144, 142, 142, 0.184);
-        h5 {
-          padding: 20px;
-          font-size: 17px;
-          color: $darkblue;
-          font-weight: bold;
-        }
-
-        .panel {
-          width: 100%;
-          display: none;
-          overflow: hidden;
-          transition: 0.2s ease-out;
-          ul {
-            margin: 0%;
-            padding: 0;
-            align-items: center;
-            li {
-              position: relative;
-              padding: 20px;
-              font-weight: 200;
-              &.bagc {
-                background-color: #f8f8f8;
-              }
-              a {
-                text-decoration: none;
-
-                span {
-                  text-decoration: none;
-                  text-align: right;
-                  font-family: heebo;
-                  color: $textColor;
-                  transition: 0.2s ease;
-                  font-size: 15px;
-
-                  &:hover {
-                    color: $aqua;
-                  }
-                  i {
-                    margin-right: 5px;
-                  }
-                }
-                .prev {
-                  position: absolute;
-                  font-size: 14px;
-                  width: 10%;
-                  padding: 5px;
-                  border-radius: 3px;
-                  text-align: center;
-                  background-color: $aqua;
-                  color: white;
-                  display: inline;
-                  font-weight: 200;
-                  right: 5%;
-                }
-              }
-            }
-          }
-        }
-      }
-    
-
-
-
-
-
+  .accmenu{
+    margin: 40px 0;
+    border: 1px solid rgba(144, 142, 142, 0.184);
+    h5 {
+      padding: 20px;
+      font-size: 17px;
+      color: $darkblue;
+      font-weight: bold;
     }
+    .menuInt{
+        width: 100%;
+                display: none;
+                overflow: hidden;
+                transition: 0.2s ease-out;
+                ul {
+                  margin: 0;
+                  padding: 0;
+                  align-items: center;
+                  li {
+                    position: relative;
+                    padding: 20px;
+                    font-weight: 200;
+                    &.before{
+                      background-color: #f8f8f8;
+                    }
+                    a {
+                      text-decoration: none;
+                      span {
+                        text-decoration: none;
+                        text-align: right;
+                        font-family: heebo;
+                        color: $textColor;
+                        transition: 0.2s ease;
+                        font-size: 15px;
+
+                        &:hover {
+                          color: $aqua;
+                        }
+                        i {
+                          margin-right: 5px;
+                        }
+                      }
+                      .after {
+                        position: absolute;
+                        font-size: 14px;
+                        width: 10%;
+                        padding: 5px;
+                        border-radius: 3px;
+                        text-align: center;
+                        background-color: $aqua;
+                        color: white;
+                        display: inline;
+                        font-weight: 200;
+                        right: 5%;
+                      }
+    }
+  }
+
+   }
+}  
+
+  }
 .insbox{
    
       padding-top: 30px;
@@ -211,7 +204,7 @@ span{
       }
       p{
           color:$pgray;
-          font-size: 18px;
+          font-size: 15px;
       }
       i{
           margin: 20px 5px;
@@ -310,6 +303,7 @@ span{
         
     }
     }
+}
   // LEFT END
 
   
@@ -321,6 +315,7 @@ span{
         box-shadow: 5px 0px 15px 0px #aeaeae;
   padding-bottom:20px ;
   border-radius: 5px;
+
     .clivideo{
       position: relative;
    img{
@@ -343,7 +338,7 @@ span{
    
      }
   p{
-         display: inline-block;
+         
          color: #072F60;
          font-size: 30px;
          font-weight: 650;
@@ -407,6 +402,10 @@ span{
         p{
             font-size: 12px;
         }
+    }
+    .rightorial{
+     margin-top: 70px;
+     margin-left: 18px;
     }
 }
 
