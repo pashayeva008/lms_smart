@@ -43,28 +43,37 @@ padding: 45px 0;
     margin-top: 40px;
 
     .fredHyman{
-
+        border-radius: 5px;
         box-shadow: 5px 0px 10px 0px #aeaeae;
 margin: 40px 0;
 padding-bottom:20px;
-
-
-        img{
+// position: absolute;
+// .lfstyle{
+// position: absolute;
+// top:20px;
+// left:10px;
+// color:$white;
+// background-color: $aqua;
+// }
+// &.faPlay{
+//     position: relative;
+// }
+  img{
 border-radius: 5px;
-&.faPlay{
-    position: relative;
-}
+
         }
-        .fapIcon{
-            position: absolute;
-            bottom: 20%;
-            left:70%;
-            color: #072F60;
-            background-color: white;
-border-radius: 50%;
-padding: 20px 22px;
-font-size: 20px;
-        }
+//         .fapIcon{
+//    transform:translateX() ;
+//             position: absolute;
+//             bottom: 0%;
+//             right:50%;
+// // transform: translate(-50%,-50%);
+//    color: #072F60;
+//             background-color: white;
+// border-radius: 50%;
+// padding: 20px 22px;
+// font-size: 20px;
+//         }
         .textHyman{
             padding: 30px;
         h3{
@@ -77,11 +86,14 @@ font-size: 20px;
 color: #ababab;
 // font-weight: 500;
 margin-left: 10px;
+i{
+    color:$aqua;
+}
                 &:hover{
-                    color:#3BBCA7;
+                    color:$aqua;
                 }
                 &.readmore{
-                    color:#3BBCA7;
+                    color:$aqua;
                     font-weight: bold;
                     font-size: 12px;
                 }
@@ -90,17 +102,67 @@ margin-left: 10px;
       
     
 }
+.fredHymanplay{
+    border-radius: 5px;
+    box-shadow: 5px 0px 10px 0px #aeaeae;
+margin: 40px 0;
+padding-bottom:20px;
+
+position: relative;
+
+    img{
+border-radius: 5px;
+
+    }
+    .fapIcon{
+transform:translateX() ;
+        position: absolute;
+        bottom: 65%;
+        right:45%;
+// transform: translate(-50%,-50%);
+color: #072F60;
+        background-color: white;
+border-radius: 50%;
+padding: 20px 22px;
+font-size: 20px;
+    }
+    .textHyman{
+        padding: 30px;
+    h3{
+        color:#072F60;
+        font-weight: 700;
+        font-size: 25px;
+        padding: 10px 0;
+    }
+        span{
+color: #ababab;
+// font-weight: 500;
+margin-left: 10px;
+i{
+    color:$aqua;
+}
+            &:hover{
+                color:$aqua;
+            }
+            &.readmore{
+                color:#3BBCA7;
+                font-weight: bold;
+                font-size: 12px;
+            }
+        }
+    }
+  }
 .botstyle{
     margin: 40px 0;
     text-align: center;
     i{
-        margin-left: 10px;
+        margin-left: 12px;
         color:$gray;
-        font-size: 15px;
+        font-size: 10px;
     }
     span{
         margin-left: 10px;
-        font-weight: 600;
+        font-weight: 620;
         font-size: 16px;
         color:$gray;
         cursor: pointer;

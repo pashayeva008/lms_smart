@@ -76,9 +76,10 @@ h5{
 }
 }
 .natright{
-  margin-left: 30px;
-//  position: sticky;
-// top:0;
+  // margin-left: 30px;
+position: sticky;
+ top:0;
+width: 90%;
   .writeKey{
    background-color: #f6f7f9;
    padding: 20px 10px;
@@ -88,10 +89,11 @@ h5{
    input{
     border: none;
     background-color: #f6f7f9;
-
+border-radius: 3px;
     &.placeholder{
+   font-size: 15px;
       color: #f6f7f9;
-    
+    padding: 10px;
         }
   }
   
@@ -148,21 +150,7 @@ transition: 0.2s ease;
 // section-2-end
 // section-3
 .tagsBalance{
-  .relatedposts{
-    h2{
-      font-weight: 6o0;
-      color:#072F60;
-    }
-    margin-top: 40px;
-    .relpost{
-      box-shadow: 5px 0px 10px 0px #aeaeae;
-      margin: 40px 0;
-      padding-bottom:20px;
-      img{
-        border-radius: 5px;
-      }
-    }
-  }
+ 
   .buildCar{
     margin-top: 40px;
     background-color: #F6F7F9;
@@ -182,6 +170,62 @@ margin:0 10px;
     }
   
   }
+  // span{
+  //   display: inline-block;
+  //   color: #666666;
+  //   background-color: #f6f7f9; 
+  //   padding:  6px;
+  //   margin: 5px ;
+  //   border-radius: 5px;
+  //  font-size:13px ;
+  //  font-weight: 600;
+ 
+  //  &:hover{
+  //   color:white;
+  //   background-color: $aqua;
+  // }
+  //   &.ttags{
+  //     color:#072F60;
+  //     font-weight: 700;
+  //     font-size: 15px;
+  //     background: none;
+  //   }
+  // }
+  .relatedposts{
+    h3{
+      font-weight: 600;
+      color:#072F60;
+      font-size: 20px;
+      padding: 5px 0;
+    }
+    margin-top: 30px;
+    .relpost{
+      box-shadow: 5px 0px 10px 0px #aeaeae;
+      margin: 40px 0;
+      padding-bottom:20px;
+      border-radius: 5px;
+      img{
+        border-radius: 5px;
+      }
+      .textrel{
+        padding: 10px 15px;
+    
+        i{
+          color: $aqua;
+        }
+        span{
+          font-weight: 600;
+          color:$gray;
+          &.readmore{
+            color:$aqua;
+            font-size: 15px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+.leftTags{
   span{
     display: inline-block;
     color: #666666;
@@ -191,6 +235,7 @@ margin:0 10px;
     border-radius: 5px;
    font-size:13px ;
    font-weight: 600;
+ 
    &:hover{
     color:white;
     background-color: $aqua;
@@ -202,8 +247,6 @@ margin:0 10px;
       background: none;
     }
   }
-.leftTags{
-
   padding-top: 40px;
 margin-top: 40px;
 .soctag{
@@ -228,21 +271,170 @@ background-color:#4E69A2;
 }
 }
   }
-
+     
 }
-  // lefttagsend
-  .rightAlltags{
-    margin-right: 30px;
-.rightTags{
-
-  margin-left: 22px;
-//   position: sticky;
-//   top:0;
-//   left: 20px;
-// }
-
+.comments02{
+  margin-top: 20px;
+  h2{
+    color:#072F60;
+    font-weight: 700;
+  }
+  .combox{
+    padding: 20px 0;
+ 
+   
+   &.kevin{
+    padding-left: 30px;
+   border-top: 2px solid #eaeaea;
+   }
+   h5{
+     color:#072F60;
+     font-weight: 600;
+     padding: 5px 0;
+   }
+   p{
+     color:$pgray;
+     font-size: 15px;
+     padding-top: 5px;
+   }
+   img{
+     border-radius: 50%;
+   }
+   span{
+     color:#838383;
+     &.repp{
+       font-weight: 600;
+       color: $aqua;
+     border-radius: 5px;
+     padding: 0 5px;
+     background-color: whitesmoke;
+      &:hover{
+       color:$white;
+       background-color: $aqua;
+            }
+   }
+ }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// lefttagsend
+ .rightAlltags{
+   span{
+     display: inline-block;
+     color: #666666;
+     background-color: #f6f7f9; 
+     padding:  6px;
+     margin: 5px ;
+     border-radius: 5px;
+    font-size:13px ;
+    font-weight: 600;
   
+    &:hover{
+     color:white;
+     background-color: $aqua;
+   }
+     &.ttags{
+       color:#072F60;
+       font-weight: 700;
+       font-size: 15px;
+       background: none;
+     }
+   }
+ width: 85%;
+ margin-left: 13px;
+.whStay{
+ margin-top: 20px;
+ text-align: center;
+background-color: #EAF3F8;
+.textWh{
+ padding: 40px 10px;
+}
+span{
+ color:white;
+ background-color: $aqua;
+ padding: 15px 25px;
+margin-top:20px;
+}
+}
+
+ }
+}
+.leavrep{
+  background-color: $lightgray;
+padding: 20px;
+margin-top: 10px;
+p{
+  color: $pgray;
+}
+  h3{
+    color:#072F60;
+    font-weight: 650;
+  }
+    input{
+width: 100%;
+margin: 15px 0;
+padding: 10px 30px;
+border: none;
+border-radius: 3px;
+&::placeholder{
+  font-size: 15px;
+}
+&.comm{
+  padding:35px 30px;
+}
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// lefttagsend
+  .rightAlltags{
+    position: sticky;
+    top:0;
+    span{
+      display: inline-block;
+      color: #666666;
+      background-color: #f6f7f9; 
+      padding:  6px;
+      margin: 5px ;
+      border-radius: 5px;
+     font-size:13px ;
+     font-weight: 600;
+   
+     &:hover{
+      color:white;
+      background-color: $aqua;
+    }
+      &.ttags{
+        color:#072F60;
+        font-weight: 700;
+        font-size: 15px;
+        background: none;
+      }
+    }
+  width: 85%;
+  margin-left: 13px;
 .whStay{
   margin-top: 20px;
   text-align: center;
@@ -260,3 +452,4 @@ margin-top:20px;
 
   }
 }
+
